@@ -22,10 +22,10 @@ int main() {
         } else {
             cout << "Correct! The number was " << randomNumber << "." << endl;
         }
-    } while (userGuess != randomNumber); // Continue until the user guesses correctly
+    } while (userGuess != randomNumber);
 
     // Part 2: Secret Password
-    string secretPassword = "akmbrdsd";  // secret password
+    string secretPassword = "akmbrdsd"; 
     string enteredPassword;
 
     // Using a while loop for password verification
